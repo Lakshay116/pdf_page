@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(/notes_img/wallpaperflare.com_wallpaper\ \(6\).jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.top-bar {
+    height: 150px;
+    /* background-color: rgb(25, 48, 48); */
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 4px 4px 8px rgb(243, 10, 10);
+    color: rgb(6, 230, 230);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+hr {
+    margin-left: 25%;
+    border-color: rgb(241, 237, 237);
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.Chemistry{
+    /* position: absolute; */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(62, 14, 194);
+    border-radius: 50px;
+    text-shadow: 2px 2px 5px rgb(9, 247, 247);
+    height: 500px;
+    width: 90%;
+    background-color: rgb(180, 223, 223);
+    margin:10% 0 10% 5% ;
+    box-shadow: 10px 10px 10px rgb(91, 89, 211);
+    background: rgba(66, 172, 172, 0.1);
+
+}
+.content-ch{
+    display: flex;
+    
+    
+}
+.pdf-ch{
+    margin-left:5%;
+    margin-top: 45px;
+    height:280px;
+    width: 18.75%;
+    background-color: rgba(93, 234, 241, 0.6);
+    
+    display: flex;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+}
+h1{
+    opacity: 1;
+}
+
+.workshop{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    color:rgb(62, 14, 194);
+    border-radius: 50px;
+    text-shadow: 2px 2px 5px rgb(9, 247, 247);
+    height: 500px;
+    width: 90%;
+    background-color: rgb(180, 223, 223);
+    margin:10% 0 10% 5% ;
+    box-shadow: 10px 10px 10px rgb(91, 89, 211);
+    background: rgba(66, 172, 172, 0.1);
+}
+.pdf-wt{
+    margin-left:5%;
+    margin-top: 45px;
+    height:280px;
+    width: 18.75%;
+    background-color: rgba(93, 234, 241, 0.6);
+    display: flex;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+}
